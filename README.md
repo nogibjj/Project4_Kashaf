@@ -5,3 +5,4 @@
 1. Create a python virtual environment in codespaces
 2. Create a python Scaffold (Create empty files: 'Makefile', 'requirements.txt', 'main.py', 'Dockerfile', 'mylib/__ init __.py')
 3. Populate Makefile
+4. Set up Continuous Integration 
