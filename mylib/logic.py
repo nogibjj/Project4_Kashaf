@@ -6,3 +6,9 @@ def wiki(name="Barack Obama", length=1):
 
     my_wiki = wikipedia.summary(name, length)
     return my_wiki
+
+
+def search_wiki(name):
+    """Search wikipedia for names"""
+    results = wikipedia.search(name)
+    return results
