@@ -1,4 +1,5 @@
 import wikipedia
+from textblob import TextBlob
 
 
 def wiki(name="Barack Obama", length=1):
@@ -12,3 +13,11 @@ def search_wiki(name):
     """Search wikipedia for names"""
     results = wikipedia.search(name)
     return results
+
+
+def phrase(name):
+    """Search phrases for wikipedia"""
+
+    page = wiki(name)
+    blob = TextBlob(page)
+    return blob.noun_phrases

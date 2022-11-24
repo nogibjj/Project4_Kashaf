@@ -2,6 +2,8 @@
 
 ## Project4_Kashaf
 
+ Continuous Delivery of Flask/FastAPI Data Engineering API on AWS - Create a Microservice that returns a JSON payload and performs a Data Engineering related task.
+
 1. Create a python virtual environment in codespaces
 2. Create a python Scaffold (Create empty files: 'Makefile', 'requirements.txt', 'main.py', 'Dockerfile', 'mylib/__ init __.py')
 3. Populate Makefile
