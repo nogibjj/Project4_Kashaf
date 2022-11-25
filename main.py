@@ -38,5 +38,29 @@ async def phrase(name: str):
     return {"result": result}
 
 
+@app.get("/url/{name}")
+async def url(name: str):
+    """Retrieve wikipedia url"""
+
+    result = url(name)
+    return {"result": result}
+
+
+@app.get("/title/{name}")
+async def title(name: str):
+    """Retrieve wikipedia title"""
+
+    result = title(name)
+    return {"result": result}
+
+
+@app.get("/content/{name}")
+async def content(name: str):
+    """Retrieve wikipedia content"""
+
+    result = content(name)
+    return {"result": result}
+
+
 if __name__ == "__main__":
     uvicorn.run(app, port=8080, host="0.0.0.0")

@@ -21,3 +21,24 @@ def phrase(name):
     page = wiki(name)
     blob = TextBlob(page)
     return blob.noun_phrases
+
+
+def url(name):
+    """Search for wikipedia url"""
+
+    page = wikipedia.page(name)
+    return page.url
+
+
+def title(name):
+    """Search for wikipedia title"""
+
+    page = wikipedia.page(name)
+    return page.title
+
+
+def content(name):
+    """Search for wikipedia content"""
+
+    page = wikipedia.page(name)
+    return page.content
