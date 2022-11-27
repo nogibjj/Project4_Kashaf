@@ -2,7 +2,7 @@
 
 ## Project4_Kashaf
 
-Create a Microservice that returns a JSON payload and performs a Data Engineering related task using python wikipedia and textblob libraries, and build Continuous Delivery of Flask/FastAPI Data Engineering API on AWS.
+In this project, I created a Microservice that returns a JSON payload and performs a Data Engineering related task using python wikipedia and textblob libraries, and the click function. Later, I also build Continuous Delivery of Flask/FastAPI Data Engineering API on AWS.
 
 ### Project Objectives:
 
