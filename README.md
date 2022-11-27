@@ -4,6 +4,8 @@
 
 Create a Microservice that returns a JSON payload and performs a Data Engineering related task, and build Continuous Delivery of Flask/FastAPI Data Engineering API on AWS.
 
+![image](https://user-images.githubusercontent.com/111402572/204025624-a12770e6-ad9b-44a8-ae6f-611761e71447.png)
+
 ### Project Objectives:
 
 * Create a Microservice that returns a JSON payload and performs a Data Engineering related task
