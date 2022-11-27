@@ -3,6 +3,10 @@ import uvicorn
 from mylib.logic import search_wiki
 from mylib.logic import wiki as wikilogic
 from mylib.logic import phrase as wikiphrases
+from mylib.logic import wikiurl as wikiurl
+from mylib.logic import wikititle as wikititle
+from mylib.logic import wikicontent as wikicontent
+
 
 app = FastAPI()
 
@@ -42,7 +46,7 @@ async def phrase(name: str):
 async def url(name: str):
     """Retrieve wikipedia url"""
 
-    result = url(name)
+    result = wikiurl(name)
     return {"result": result}
 
 
@@ -50,7 +54,7 @@ async def url(name: str):
 async def title(name: str):
     """Retrieve wikipedia title"""
 
-    result = title(name)
+    result = wikititle(name)
     return {"result": result}
 
 
@@ -58,7 +62,7 @@ async def title(name: str):
 async def content(name: str):
     """Retrieve wikipedia content"""
 
-    result = content(name)
+    result = wikicontent(name)
     return {"result": result}
 
 

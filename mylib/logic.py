@@ -23,21 +23,21 @@ def phrase(name):
     return blob.noun_phrases
 
 
-def url(name):
+def wikiurl(name):
     """Search for wikipedia url"""
 
     page = wikipedia.page(name)
     return page.url
 
 
-def title(name):
+def wikititle(name):
     """Search for wikipedia title"""
 
     page = wikipedia.page(name)
     return page.title
 
 
-def content(name):
+def wikicontent(name):
     """Search for wikipedia content"""
 
     page = wikipedia.page(name)
