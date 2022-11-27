@@ -10,7 +10,7 @@ Create a Microservice that returns a JSON payload and performs a Data Engineerin
 * Push tested source code to Github and perform Continuous Integration with Github Actions (or similar SaaS Build service)
 * Build Continuous Delivery of Flask/FastAPI Data Engineering API on AWS
 
-![image](https://user-images.githubusercontent.com/111402572/204025624-a12770e6-ad9b-44a8-ae6f-611761e71447.png)
+![image](https://user-images.githubusercontent.com/111402572/204116165-0177446a-e262-4e22-8c04-ae81233543d8.png)
 
 ### Part 1: Initial Setup:
 
