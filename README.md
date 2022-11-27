@@ -1,4 +1,5 @@
 [![Python application test with Github Actions](https://github.com/nogibjj/Project4_Kashaf/actions/workflows/main.yml/badge.svg)](https://github.com/nogibjj/Project4_Kashaf/actions/workflows/main.yml)
+https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiZWdsV3JnbTBpWUhzNjdaWG9FWnB4VXRGQnkrZytSeHRrZU5KTDZyaktqbktweXBqbnNydWQ2TU1XNEQzVHhiWHo1R1BFMStEbXdkQ1JWWnF4b000WkxnPSIsIml2UGFyYW1ldGVyU3BlYyI6IjFXUEJzWXVkOHlnVWFDU0wiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main
 
 ## Project4_Kashaf
 
