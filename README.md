@@ -23,8 +23,8 @@ Create a Microservice that returns a JSON payload and performs a Data Engineerin
 
 1. Create a logic function - populated the logic.py file using wikipedia python library
 2. Populate the main file by importing functions from the logic file
-3. Build a command line tool (cli-fire.py) using python fire library and use chmod +x cli-fire.py to make it executable, and then we can pass it as ./cli-fire.py --help to test the logic
-4. Run the command line tool to test the logic
+3. Build a command line tool (cli-fire.py) using python fire library and use chmod +x cli-fire.py to make it executable, and then we can pass it as ./cli-fire.py --help to test the logic.
+4. Run the command line tool to test the logic (./cli-fire.py content/phrase/search_wiki/title/url/wiki ...)
 
 ### Part 3: Create a FastAPI API:
 1. Create a FastAPI API - populated the main.py file using FastAPI library
