@@ -1,5 +1,5 @@
 import wikipedia
-from textblob import TextBlob
+from textblob import TextBlob 
 
 
 def wiki(name="Barack Obama", length=1):
