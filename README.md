@@ -2,14 +2,13 @@
 
 ## Project4_Kashaf
 
-Continuous Delivery of Flask/FastAPI Data Engineering API on AWS - Create a Microservice that returns a JSON payload and performs a Data Engineering related task.
+Create a Microservice that returns a JSON payload and performs a Data Engineering related task, and build Continuous Delivery of Flask/FastAPI Data Engineering API on AWS.
 
 ### Project Objectives:
 
 * Create a Microservice that returns a JSON payload and performs a Data Engineering related task
 * Push tested source code to Github and perform Continuous Integration with Github Actions (or similar SaaS Build service)
-* Configure Build Server to Deploy Changes on build (Continuous Delivery)
-* Run through FastAPI 
+* Build Continuous Delivery of Flask/FastAPI Data Engineering API on AWS
 
 Part 1: Initial Setup:
 
