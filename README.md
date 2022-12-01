@@ -33,14 +33,14 @@ In this project, I created a Microservice that returns a JSON payload and uses p
 3. Check Swagger documentation
 
 ### Part 4: Create a Dockerfile:
-1. Create a Dockerfile - populated the Dockerfile file using FastAPI library
+1. Create a Dockerfile to package the application and all its dependencies in a virtual container - populated the Dockerfile file using FastAPI library
 2. Build the Dockerfile
 3. Run the Dockerfile
 
 ### Part 5: Deploy with AWS 
-1. Create connection with AWS
-2. Create a new ECR repository
-3. Create a new ECS cluster
+1. Create connection with AWS - by adding AWS credntials to Github Secrets
+2. Create a fully-managed Docker container registry using ECR which will make it easy to store, manage, and deploy Docker container images.
+3. Use AWS CodeBuild to build and test the Docker image (for continuous delivery)
 
 
 
